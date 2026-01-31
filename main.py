@@ -48,7 +48,6 @@ def add(a: int, b: int):
         "result": a + b,
     }
 
-
 @app.get("/items/")
 def list_items():
     return [
