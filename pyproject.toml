@@ -20,5 +20,6 @@ build-backend = "poetry.core.masonry.api"
 [dependency-groups]
 dev = [
     "fastapi (>=0.128.0,<0.129.0)",
-    "pytest (>=9.0.2,<10.0.0)"
+    "pytest (>=9.0.2,<10.0.0)",
+    "black (>=26.1.0,<27.0.0)"
 ]
